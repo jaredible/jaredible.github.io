@@ -14,9 +14,9 @@ author: Jared Diehl
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Blog: "/"
   Projects: "projects"
-  About Me: "aboutme"
-  Contact: "contact"
+  About Me / Contact: "aboutme"
 #  Resources:
 #    - Beautiful Jekyll: "https://beautifuljekyll.com"
 #    - Learn markdown: "https://www.markdowntutorial.com/"
@@ -199,7 +199,7 @@ timezone: "America/Toronto"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
-paginate: 5
+paginate: 10
 
 kramdown:
   input: GFM
